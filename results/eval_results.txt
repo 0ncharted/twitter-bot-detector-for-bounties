@@ -1,0 +1,19 @@
+Classification Report:
+{'0': {'precision': 0.8379629629629629, 'recall': 0.905, 'f1-score': 0.8701923076923077, 'support': 200}, '1': {'precision': 0.8967391304347826, 'recall': 0.825, 'f1-score': 0.859375, 'support': 200}, 'accuracy': 0.865, 'macro avg': {'precision': 0.8673510466988728, 'recall': 0.865, 'f1-score': 0.8647836538461539, 'support': 400}, 'weighted avg': {'precision': 0.8673510466988728, 'recall': 0.865, 'f1-score': 0.8647836538461539, 'support': 400}}
+
+Confusion Matrix:
+[[181  19]
+ [ 35 165]]
+
+Top Importances:
+             feature  importance
+5          no_tweets    0.193180
+1        no_follower    0.151493
+11           no_char    0.125027
+8         no_hashtag    0.120495
+0         accout_age    0.076904
+12         no_digits    0.067835
+3   no_userfavorites    0.064825
+2       no_following    0.064142
+4           no_lists    0.059387
+9     no_usermention    0.036026
